@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Page */
+body {
+  background-color: #fff;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  color: #111;
+  line-height: 1.4;
+}
+
+/* Green banner */
+.bg {
+  border: 0.5px solid #000;
+  padding: 48px;
+  margin: 16px;
+  background-color: rgb(47, 255, 127);
+  border-radius: 25px;
+}
+h1 {
+  font-size: 48px;
+  margin: 0 0 8px 0;
+}
+.insideText {
+  max-width: 700px;
+}
+p {
+  font-size: 33px;
+  margin: 8px 0;
+  color: gray;
+}
+button {
+  font-size: 16px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  background-color: #fff;
+  border: none;
+}
+
+/* Card like the first screenshot */
+.bg1 {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 20px;
+  margin: 16px;
+  max-width: 1181px;
+}
+
+.insideText1 p:first-child {
+  font-weight: 600;
+  font-size: 36px;
+  margin-bottom: 4px;
+}
+
+/* Avatar row */
+.img1 {
+  display: flex;
+  gap: 177px;
+  align-items: center;
+  padding: 12px 0;
+  margin-left: 151px;
+}
+
+/* Make each image a small circle */
+.img1 img {
+  width: 72px; /* avatar size */
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover; /* keeps faces centered */
+  display: block;
+  border: 1px solid #e5e7eb;
+}
+
+.line {
+  border-bottom: 1px solid #e5e7eb;
+  display: block;
+  width: calc(100% + 40px); /* 40 = 20px left + 20px right padding of .bg1 */
+  margin: 8px 0 4px -20px; /* shift left to align with card edge */
+}
+.blue {
+  color: #1a73e8; /* Google blue vibe */
+  font-weight: 500;
+  cursor: pointer;
+}
+.blue:hover {
+  text-decoration: underline;
+}
+
+#profile {
+  color: black;
+}
+#profile1 {
+  width: 100%;
+}
+#profile11 {
+  font-size: 25px;
+}
+.bg1 h1 {
+  font-weight: normal;
+}
+.btn2 {
+  border: 1px solid gray;
+  background-color: white;
+
+  color: blue;
+}
