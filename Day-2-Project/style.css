@@ -1,0 +1,136 @@
+.card{
+    position: relative;
+    border-radius: 16px;
+    width: 244px;
+    padding: 10px;
+    overflow: hidden;
+}
+.card-img{
+    width: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.card-p{
+    text-align: center;
+    top: -11px;
+    position: relative;
+    font-size: 14px;
+   
+}
+
+.card-p span {
+  /* your styles here */
+  color: gray;
+   
+
+}
+.parent{
+    display: flex;
+    gap: 20px;
+  margin-top: 4px; /* reduce from default 8px or 10px */
+  line-height: 1.2;
+}
+
+
+h4{
+    position: relative;
+    bottom:-12px;
+    left: 20px;
+    font-weight: bold;
+    top: 12px;
+    
+}
+
+.title{ color: red; font: 12px tahoma;} 
+
+.card-img-container button{
+    background-color: whitesmoke;
+    border-radius: 20px;
+    border: none;
+}
+
+.card-img-container {
+    display: flex;
+    position: absolute;
+   
+    top: 19px;
+    left: 16px;
+    gap: 29px;
+}
+
+.head{
+    position: relative;
+    top: 55px;
+}
+.head1{
+    position: relative;
+    top: -48px;
+}
+
+.head2{
+    position: relative;
+    top: -95px;
+}
+
+.head3{
+    position: relative;
+    top: -147px;
+}
+.head4{
+    position: relative;
+    top: -190px;
+}
+.head5{
+    position: relative;
+    top: -236px;
+}
+.head6{
+    position: relative;
+    top: -283px;
+}
+.head7{
+    position: relative;
+    top: -331px;
+}
+.head8{
+    position: relative;
+    top: -378px;
+}
+
+
+
+
+
+.circle {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  line-height: 22px;
+  font-weight: bold;
+  background-color: lightgray;
+  position: relative;
+  left: 938px;
+border: none;
+}
+
+.circle:hover{
+    color: lightgrey;
+    font-weight: 100;
+    background-color: white;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.circle1{
+    position: relative;
+    right: 20px;
+}
+
+.footer{
+    background-color: gray;
+    padding: 50%;
+}
